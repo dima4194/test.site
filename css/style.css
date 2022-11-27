@@ -1,0 +1,850 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    background: #F5F5F5;
+}
+
+.container5 {
+    background: #F5F5F5;
+}
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+
+.header__logo {
+    padding-top: 30px;
+    padding-left: 105px;
+}
+
+
+.ul__nav {
+    display: flex;
+    list-style-type: none;
+    padding-top: 31px;
+}
+
+.nav__link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 55px;
+    text-decoration: none;
+}
+
+.nav__link::after {
+    
+}
+
+.nav__link:hover {
+    color: #000000;
+    font-weight: 900;
+
+    transition: font-weight 0.2s linear;
+}
+
+.shop__item {
+    padding-top: 30px;
+    padding-right: 50px
+    
+}
+
+.img__shop__item:last-child {
+    margin-right: 35px;
+}
+
+.container {
+    width: 100%;
+    height: 630px;
+    background: #F5F5F5;
+}
+
+.sguare {
+    position: relative;
+    Width: 1294px;
+    Height: 550px;
+    background: #DCE5E2;
+    border-radius: 32px;
+    margin: 32px 102px;
+}
+
+.h1__sguare {
+    position: absolute;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    top: 75px;
+    left: 56px;
+}
+
+.text__sguare {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    top: 270px;
+    left: 57px;
+}
+
+.btn__sguare {
+    position: absolute;
+    Width: 170px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    top: 360px;
+    left: 56px;
+
+}
+
+.btn__sguare::after {
+
+}
+
+.btn__sguare:hover {
+    background: #b39999;
+
+    transition: background 0.3s linear;
+}
+
+.link__sguare {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.iphone {
+    margin-left: 600px;
+}
+
+.vector__sguare {
+    margin-bottom: 275px;
+}
+
+
+.container2 {
+    width: 100%;
+    height: 1000px;
+    background: #F5F5F5;
+}
+
+.title {
+    text-align: center;
+}
+
+.main__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #000000;
+}
+
+.sub__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.box__card {
+    position: relative;
+    width: 639px;
+    height: 472px;
+    background: #F8F9FA;
+    border-radius: 32px;
+    box-shadow: 0px 4px 35px 0px #00000040;
+    margin-left: 73px;
+    margin-top: 55px;
+
+}
+
+.card__img1 {
+    position: absolute;
+    left: 42px;
+    bottom: 95px;
+}
+
+.inside__info {
+    margin-left: 450px;
+    padding-top: 330px;
+}
+
+.title__cards {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    left: 540px;
+    top: 350px;
+}
+
+.desc__title {
+    position: absolute;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;   
+    left: 435px;
+    top: 370px;  
+}
+
+.box__card1 {
+    position: absolute;
+    Width: 639px;
+    Height: 270px;
+    margin-top: 72px;
+    background: #F8F9FA;
+    border-radius: 32px;
+    box-shadow: 0px 4px 35px 0px #00000040;
+    margin-left: 73px;
+
+}
+
+.card__img2 {
+    position: absolute;
+    
+    
+}
+
+.inside__info2 {
+    position: relative;
+    bottom: 270px;
+}
+
+.desc__title2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    width: 128px;
+    height: 77px;
+    left: 470px;
+    top: 363px;
+}
+
+.box__card2 {
+    position: absolute;
+    Width: 312px;
+    Height: 792px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 4px 35px 0px #00000040;
+    left: 730px;
+    bottom: -1034px;
+}
+
+.card__img3 {
+    position: absolute;
+    left: 16px;
+    top: 144px;
+}
+
+.inside__info3 {
+    padding-top: 540px;
+}
+
+.title__cards2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center
+}
+
+.desc__title3 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center
+}
+
+.box__card3 {
+    position: absolute;
+    Width: 312px;
+    Height: 792px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 4px 35px 0px #00000040;
+    left: 1060px;
+    bottom: -1034px;
+}
+
+.card__img4 {
+    position: absolute;
+    top: 252px;
+}
+
+.title__cards3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.desc__title4 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.inside__info4 {
+    padding-top: 73px;
+}
+
+.container3 {
+    width: 100%;
+    height: 600px;
+    background: #F5F5F5;
+}
+
+.title2 {
+    margin-top: 110px;
+}
+
+.main__title1 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.sub__title1 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.shop__item {
+    display: flex;
+    align-items: center;
+}
+
+.desc__item {
+    margin-left: 80px;
+}
+
+.mac__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.mac__desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+
+.price__item {  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.container4 {
+    width: 100%;
+    height: 663px;
+}
+
+.title5 {
+    margin-top: 57px;
+}
+
+.main__title5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.sub__title5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+}
+.zzzzzz {
+    display: flex;
+    justify-content: center;
+}
+
+.box__cardss {
+    Width: 413px;
+    Height: 453px;
+    background: #F8F9FA;
+    border-radius: 16px;
+    margin-right: 48px;
+}
+
+.without {
+    text-align: center;
+}
+
+.title__boxh5 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+    padding-left: 5px;
+}
+
+.subtitle__boxx {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn__sguare1 {
+    Width: 170px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    top: 360px;
+    left: 56px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn__sguare1::after {
+
+}
+
+.btn__sguare1:hover {
+    background: #b39999;
+
+    transition: background 0.3s linear;
+}
+
+.link__sguare1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+
+.img__box5 {
+    padding-top: 20px;
+    padding-left: 60px;
+
+}
+
+.container5 {
+    width: 100%;
+    height: 600px;
+}
+
+.main__title6 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.sub__title6 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.book {
+    margin: 75px 73px;
+}
+
+.text__block {
+    position: absolute;
+    left: 750px;
+    bottom: -3020px;
+}
+
+.paragraph__block {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    animation-direction: reverse;
+}
+
+.container6 {
+    Width: 1440px;
+    Height: 934px;
+}
+
+.center__search {
+    display: flex;
+    align-items: center;
+    margin-top: 73px;
+    justify-content: center;
+}
+
+.see {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.title10 {  
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.search__place1 {
+    position: absolute;
+    Width: 650px;
+    Height: 60px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    padding-left: 50px;
+    border-radius: 100px;
+    left: 400px;
+
+}
+
+.btn_100 {
+    padding-top: 80px;
+    padding-left: 470px;
+}
+
+.btn__alot::after {
+
+}
+
+.btn__alot:hover {
+    font-size: 17px;
+
+    transition: font-size 0.2s linear;
+}
+
+.btn_5 {
+    Width: 90px;
+    Height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn__alot {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn_6 {
+    Width: 98px;
+    Height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_7 {
+    width: 68px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+
+}
+
+.btn_8 {
+    height: 42px;
+    width: 142px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_9 {
+    height: 42px;
+    width: 109px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_101 {
+    padding-top: 7px;
+    padding-left: 45px;
+}
+
+.btn_10 {
+    height: 42px;
+    width: 118px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_11 {
+    height: 48px;
+    width: 109px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_12 {
+    height: 48px;
+    width: 91px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.btn_13 {
+    height: 42px;
+    width: 89px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.email__search {
+    Width: 935px;
+    Height: 450px;
+    background: #DCE5E2;;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+
+.title12 {
+    padding-top: 17px;
+}
+
+.main__title12 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.sub__title12 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.main__box_photo {
+    padding-left: 350px;
+}
+
+.search__place2 {
+    position: absolute;
+    height: 50px;
+    width: 285px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    margin-top: 200px;
+    padding-left: 20px;
+    left: 500px;
+}
+
+.black__btn {
+    position: absolute;
+    Width: 115px;
+    Height: 50px;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    margin-top: 200px;
+    left: 784px;
+}
+
+.whati__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF
+    
+    
+}
+
+.logo__title {
+    padding: 25px 141px;
+}
+
+.footer {
+    width: 100%;
+    height: 478px;
+    background: #F8F9FA;
+    
+}
+
+.sub_logo_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.fiiter__item {
+    display: flex;
+}
+
+.list__block {
+    position: relative;
+    display: column;
+    margin-right: 93px;
+    bottom: 170px;
+    left: 580px;
+}
+
+.footer__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.footer__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    line-height: 22px;
+    text-decoration: none
+}
+
+.footer__link::after {
+
+}
+
+.footer__link:hover {
+    font-weight: 800;
+    color: #280000;
+
+    transition: color 0.1s linear;
+}
+
+hr {
+    position: absolute;
+    height: 1px;
+    width: 1350px;
+    background: #DCE5E2;
+    margin-top: 190px;
+    margin-left: 60px;
+}
+
+.text__next {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.link__next {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 210px;
+}
+
+.text__next1 {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.link__next1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 1150px;
+    margin-top: 210px;
+}
